@@ -12,4 +12,4 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        python manage.py test    - name: Run Django unit tests
+        python manage.py test
