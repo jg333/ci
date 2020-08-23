@@ -17,5 +17,7 @@ jobs:
         python3 manage.py makemigrations
         python3 manage.py migrate
     - name: Run Tests
+      env:
+        SECRET_KEY: ly97e#bh!*%8!*=u7jumec3uiq&-g^k8^sygkrd&(vnb#df^$%
       run: |
         python3 manage.py test
