@@ -2,3 +2,4 @@ asgiref
 Django>=2.0
 pytz
 sqlparse
+sqlite=3.25.3
