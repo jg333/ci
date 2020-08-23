@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete message</title>
+</head>
+<body>
+    {{ object.id }} - {{ object.subject }} od {{ object.email }}
+    <form method="post">
+        {% csrf_token %}
+        Czy napewno chcesz usunąć ten wpis ?
+        <input type="submit" value="Zatwierdź">
+    </form>
+
+</body>
+</html>
